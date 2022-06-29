@@ -50,7 +50,7 @@
 // }
 let elementNum = function lastElement([]){
     
-    console.log ([];)
+    console.log ([]);
     // let lastIndex = elementsNum - 1;
     // if (elementsNum === 0){
     //     console.log('No element in array')
