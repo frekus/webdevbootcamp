@@ -34,5 +34,5 @@ function isSnakeEyes(num1, num2){
         console.log('Not Snake Eyes');
     }
 }
-isSnakeEyes(1,1)
+isSnakeEyes(1,6)
 //isSnakeEyes(4,2)
