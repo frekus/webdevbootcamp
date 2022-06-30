@@ -48,7 +48,11 @@
 //     return sum;
 //     console.log("END OF FUNCTION") //never runs because of the return keyword
 // }
-let elementNum = function lastElement([]){
+
+
+
+//***************
+/*let elementNum = function lastElement([]){
     
     console.log ([]);
     // let lastIndex = elementsNum - 1;
@@ -59,4 +63,22 @@ let elementNum = function lastElement([]){
 }
 isSnakeEyes(1,6)
 //isSnakeEyes(4,2)
-lastElement([3,4])
+lastElement([3,4])*/
+//********************
+
+const singleArr = [];
+let num = singleArr.length;
+  let numm = num - 1;
+function lastElement(singleArr){
+    
+    {
+         if (numm == 0){
+            return null
+        }
+        return(singleArr[numm])
+    }
+  
+
+}
+lastElement([]);
+
