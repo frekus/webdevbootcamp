@@ -67,18 +67,18 @@ lastElement([3,4])*/
 //********************
 
 const singleArr = [];
-let num = singleArr.length;
-  let numm = num - 1;
+
 function lastElement(singleArr){
-    
-    {
-         if (numm == 0){
-            return null
+    let num = singleArr.length;
+  let numm = num - 1;    
+  //console.log(num)
+        if (numm !== -1){
+            console.log(`The last element is ${singleArr[numm]}`)
         }
-        return(singleArr[numm])
-    }
+        
+        //return null;
   
 
 }
-lastElement([]);
+lastElement([4]);
 
