@@ -50,35 +50,14 @@
 // }
 
 
-
-//***************
-/*let elementNum = function lastElement([]){
-    
-    console.log ([]);
-    // let lastIndex = elementsNum - 1;
-    // if (elementsNum === 0){
-    //     console.log('No element in array')
-    // }
-    // //return null;
-}
-isSnakeEyes(1,6)
-//isSnakeEyes(4,2)
-lastElement([3,4])*/
-//********************
-
-const singleArr = [];
+let singleArr = [];
 
 function lastElement(singleArr){
     let num = singleArr.length;
-  let numm = num - 1;    
-  //console.log(num)
+    let numm = num - 1;    
         if (numm !== -1){
-            console.log(`The last element is ${singleArr[numm]}`)
-        }
-        
-        //return null;
-  
-
+            console.log(`The last element is ${singleArr[numm]}`);
+        }  
 }
-lastElement([4]);
+lastElement([]);
 
