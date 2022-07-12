@@ -85,7 +85,7 @@ function capitalize(word){
 
 console.log(capitalize(word)); */
 
-/* const arr = [];
+const arr = [];
 let total = 0;
 function sumArray(arr){
     for(let i = 0; i < arr.length; i++){
@@ -94,10 +94,10 @@ function sumArray(arr){
     return total;
     //console.log(total)
 }
-console.log(sumArray([100,10, -3])); */
+console.log(sumArray([100,10, -3]));
 
 
- function returnDay(day){
+/*  function returnDay(day){
     let dayOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
     if(day < 1 || day > 7){
         return null;
@@ -106,7 +106,7 @@ console.log(sumArray([100,10, -3])); */
     }
 }
 
-console.log(returnDay(7))
+console.log(returnDay(7)) */
 
 
 
