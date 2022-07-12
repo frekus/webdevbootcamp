@@ -61,13 +61,38 @@ function lastElement(singleArr){
 }
 lastElement([2,3]); */
 
-//const word = prompt('Please enter a word');
-function capitalize(word){
+
+/* let capitalize = null;
+let word = prompt('Please enter a word');
+
+capitalize =function(word){
     let str = word.charAt(0).toUpperCase() + word.slice(1);
     
-    return str;
-    //console.log(str);
+    //return str;
+    console.log(str);
 //console.log(str)
 }
 
-capitalize('mathematics');
+capitalize(word); */
+
+
+/* let word = prompt('Please enter a word');
+function capitalize(word){
+    let result =  word.charAt(0).toUpperCase() + word.slice(1);    
+    //console.log(result);
+    //return result;
+}
+
+console.log(capitalize(word)); */
+
+const arr = [];
+let total = 0;
+function sumArray(arr){
+    for(let i = 0; i < arr.length; i++){
+        total += arr[i];
+    }
+    return total;
+    //console.log(total)
+}
+console.log(sumArray([100,10, -3]));
+
