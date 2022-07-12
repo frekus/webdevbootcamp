@@ -50,7 +50,7 @@
 // }
 
 
-let singleArr = [];
+/* let singleArr = [];
 
 function lastElement(singleArr){
     let num = singleArr.length;
@@ -59,5 +59,15 @@ function lastElement(singleArr){
             console.log(`The last element is ${singleArr[numm]}`);
         }  
 }
-lastElement([]);
+lastElement([2,3]); */
 
+//const word = prompt('Please enter a word');
+function capitalize(word){
+    let str = word.charAt(0).toUpperCase() + word.slice(1);
+    
+    return str;
+    //console.log(str);
+//console.log(str)
+}
+
+capitalize('mathematics');
