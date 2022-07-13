@@ -85,7 +85,7 @@ function capitalize(word){
 
 console.log(capitalize(word)); */
 
-const arr = [];
+/* const arr = [];
 let total = 0;
 function sumArray(arr){
     for(let i = 0; i < arr.length; i++){
@@ -94,7 +94,7 @@ function sumArray(arr){
     return total;
     //console.log(total)
 }
-console.log(sumArray([100,10, -3]));
+console.log(sumArray([100,10, -3])); */
 
 
 /*  function returnDay(day){
@@ -107,6 +107,14 @@ console.log(sumArray([100,10, -3]));
 }
 
 console.log(returnDay(7)) */
+const square = {
+    area(side){
+        return side * side;
+    },
+    perimeter(side){
+        return side * 4;
+    }
+}
 
 
 
