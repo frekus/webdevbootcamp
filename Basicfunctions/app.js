@@ -107,16 +107,32 @@ console.log(sumArray([100,10, -3])); */
 }
 
 console.log(returnDay(7)) */
-const square = {
+/* const square = {
     area(side){
         return side * side;
     },
     perimeter(side){
         return side * 4;
     }
+} */
+
+/* const hen = {
+    name: "Helen",
+    eggCount: 0,
+    layAnEgg(){
+        this.eggCount += 1;
+        return "EGG";
+    }
+    
+    
+} */
+
+function yell(msg){
+    try {
+        console.log(msg.toUppercase().repeat(3));
+    } catch (e) {
+        console.log("Please paass a string next time");
+    }
 }
-
-
-
 
 
