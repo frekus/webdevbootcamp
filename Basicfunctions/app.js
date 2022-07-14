@@ -127,12 +127,30 @@ console.log(returnDay(7)) */
     
 } */
 
-function yell(msg){
+/* function yell(msg){
     try {
         console.log(msg.toUppercase().repeat(3));
     } catch (e) {
         console.log("Please paass a string next time");
     }
+} */
+
+const numbers =  [1,2,3,4,5,6,7,8,9]
+
+/* function print(element){
+    console.log(element);
 }
+
+numbers.forEach(print) */
+
+/* numbers.forEach(function (el){
+    if (el % 2 === 0)
+    console.log(el)
+}) */
+
+/* for (let el of numbers){
+    console.log(el);
+} */
+
 
 
