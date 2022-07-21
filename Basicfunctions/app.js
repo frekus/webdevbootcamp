@@ -135,7 +135,7 @@ console.log(returnDay(7)) */
     }
 } */
 
-const numbers =  [1,2,3,4,5,6,7,8,9]
+//const numbers =  [1,2,3,4,5,6,7,8,9]
 
 /* function print(element){
     console.log(element);
@@ -156,24 +156,33 @@ numbers.forEach(print) */
     return num * 2;
 })
  */
- const movies = [
+ /* const movies = [
     {
         title: 'Amadeus',
-        score: 99
+        score: 99,
+        year: 1990
     },
     {
         title: 'Stand By Me',
-        score: 85
+        score: 85,
+        year: 1999
     },
     {
         title: 'Parasite',
-        score: 95
+        score: 95,
+        year: 1995
     },
     {
         title: 'Alien',
-        score: 93
+        score: 93,
+        year: 1790
+    },
+    {
+        title: 'Alien',
+        score: 63,
+        year: 2010
     }
-]
+] */
 /*
 const titles = movies.map(function (movie){
     return movie.title.toUpperCase();
@@ -239,3 +248,30 @@ setTimeout( () => {
 }, 2000); */
 
 // clearInterval(id)
+
+/* const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+numbers.filter(n => {
+    return n < 7
+})
+ */
+
+/* const goodMovies = movies.filter(m => m.score > 80)
+const goodTitles = goodMovies.map(m => m.title)
+
+movies
+        .filter(m => m.score > 80)
+        .map(m => m.title)
+
+const badMovies = movies.filter(m => m.score < 70)
+
+const recentMovies = movies.filter(m => m.year > 2000) */
+
+const usernames = []
+function validUserNames(usernames) {
+    // your code here
+    usernames.filter(u => {
+        return u.
+    })
+
+  }
