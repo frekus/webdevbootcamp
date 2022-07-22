@@ -267,11 +267,16 @@ const badMovies = movies.filter(m => m.score < 70)
 
 const recentMovies = movies.filter(m => m.year > 2000) */
 
-const usernames = []
+/* const usernames = []
 function validUserNames(usernames) {
     // your code here
     usernames.filter(u => {
         return u.
     })
 
+  } */
+
+  const names = ["Boy", "Manna", "Sensima", "Solomon"]
+  for(let i = 0; i < names.length; i++){
+    if (names[i] )
   }

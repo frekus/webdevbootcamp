@@ -40,9 +40,9 @@ const animals = [
     "Asian Elephant"
 ]
 
-// for(let i = 0; i < animals.length; i++){
-//     console.log(i, animals[i])
-// }
+for(let i = 0; i < animals.length; i++){
+    console.log(i, animals[i])
+}
 
 // for (let i = animals.length - 1; i >= 0; i--) {
 //     console.log(animals[i])
@@ -55,7 +55,7 @@ const animals = [
     }
 } */
 
-const seatingChart = [
+/* const seatingChart = [
     ['Kristen', 'Erik', 'Namita'],
     ['Geoffrey', 'Juanita', 'Antonio','Kevin'],
     ['Yuma', 'Sakura', 'Jack', 'Erika']
@@ -67,4 +67,4 @@ for (let i = 0; i < seatingChart.length; i++){
     for (let j = 0; j < row.length; j++){
         console.log(row[j]);
     }
-}
+} */
