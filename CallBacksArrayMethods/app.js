@@ -1,4 +1,4 @@
-const movies = [
+/* const movies = [
     {
         title: 'Amadeus',
         score: 99,
@@ -30,7 +30,7 @@ const movies = [
         score: 78,
         year: 1999
     }
-]
+] */
 
 /* const goodMovies = movies.filter(movie =>{
     return movie.score > 80 
@@ -41,4 +41,25 @@ const movies = [
 const goodTitles = goodMovies.map(m => m.title) */
 
 //movies.filter(m => m.score > 80).map(m => m.title)
-const badMovies = movies.filter(movie => movie.score < 80)
+//const badMovies = movies.filter(movie => movie.score < 80)
+
+
+	// JavaScript to illustrate findIndex() method
+	/* function canVote(age) {
+		return age >= 18;
+	}
+
+	function func() {
+		var filtered = [24, 33, 16, 40].filter(canVote);
+		document.write(filtered);
+	}
+	func(); */
+    function validUserNames(usernames) {
+    
+        const result = usernames.filter(username => username.length < 10);
+        
+        console.log(result);
+      // your code here
+    }
+
+validUserNames(["Kufre", "Jonathan", "Samanthanjay"])
